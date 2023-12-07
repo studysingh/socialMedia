@@ -1,0 +1,72 @@
+.sidebarClass{
+  max-height: 50px;
+}
+.postForm{
+  margin: auto;
+  margin-top: 40px;
+  min-width: 60%;
+  background-color: rgb(248, 251, 249);
+  border: 1px solid grey;
+  padding: 20px;
+  border-radius: 5px;
+}
+.postHeading{
+  color: rgb(106, 213, 23);
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+.postListContainer{
+  width: 100%;
+}
+.card{
+  width: 60%;
+  margin: auto;
+  margin-top: 40px;
+}
+.tagBtn{
+  transform: scale(0.7);
+  --bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;
+}
+.tagBtn:hover{
+  cursor: default;
+}
+.tagContainer{
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.deleteBtn{
+  position: absolute;
+  right: -20px;
+  bottom: -20px;
+}
+.noPostMessageContainer{
+  margin: auto;
+  margin-top: 40px;
+  padding: 15px;
+  text-align: center;
+}
+.noPostMessageHeading{
+  width: 100%;
+  font-weight: 700;
+  font-size: 45px;
+  background: linear-gradient(to left bottom ,rgb(0, 0, 235) , rgb(0, 249, 112));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin: 10px;
+}
+.noPostMessageBtn{
+  margin: 10px;
+}
+.loaderContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.loader{
+  width: 100px;
+  height: 100px;
+}
